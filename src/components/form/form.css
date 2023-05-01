@@ -1,0 +1,61 @@
+.form-wrapper{
+    margin: 20px auto;
+    min-height: 50px;
+    min-width: 40%;
+    padding: 5px;
+}
+
+.form{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin: 30px auto;
+    gap: 15px;
+}
+
+.input-container{
+    position: relative;
+}
+
+.input-container > input{
+    padding: 8px 6px;
+    min-width: 350px;
+    border: none;
+    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+}
+
+.input-container > input:focus{
+    outline: none;
+}
+
+.input-container > input::placeholder{
+    color: white;
+    font-size: 18px;
+}
+
+.input-container > button{
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    padding: 9px;
+    background: #f09819;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+}
+
+.form > select{
+    min-width: 200px;
+    background: #e79219;
+    color: white;
+    border-radius: 3px;
+}
+
+.form > select:focus{
+    outline: none;
+}

@@ -1,0 +1,48 @@
+.todo-container{
+    min-width: 40%;
+}
+
+.todo-list{
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+}
+
+.todo-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 13px;
+     background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+}
+
+.todo-item.completed>p{
+    color: #8b8787;
+    text-decoration: line-through;
+}
+
+.todo-item > p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.todo-item > .btn-action{
+    display: flex;
+    gap: 2px;
+}
+
+.todo-item > .btn-action > button{
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-complete{
+    background: rgb(5, 139, 5);
+}
+.btn-trash{
+    background: rgb(255, 0, 0);
+}
